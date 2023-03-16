@@ -1,0 +1,10 @@
+{
+  "name": "Theme Magic!",
+  "id": "1217742646016668548",
+  "api": "1.0.0",
+  "editorType": [
+    "figma"
+  ],
+  "main": "code.js",
+  "ui": "ui.html"
+}
