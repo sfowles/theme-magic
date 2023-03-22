@@ -319,7 +319,7 @@ else {
                 }
             });
             // Recursive function to traverse all child nodes
-            const traverse = (e) => {
+            const mapTokens = (e) => {
                 if (e.type === 'INSTANCE') {
                     if ('Theme' in e.componentProperties && currentTheme === 'light') {
                         e.setProperties({ 'Theme': 'Dark' });
@@ -355,15 +355,15 @@ else {
                 if (e.type === 'GROUP'
                     || e.type === 'FRAME') {
                     for (const child in e.children) {
-                        traverse(e.children[child]);
+                        mapTokens(e.children[child]);
                     }
                 }
             };
             // Check for and replace fill color on the selected Frame
-            traverse(selectedFrame);
+            mapTokens(selectedFrame);
             // Iterate through children of selected Frame
             for (const child in selectedFrame.children) {
-                traverse(selectedFrame.children[child]);
+                mapTokens(selectedFrame.children[child]);
             }
             figma.viewport.scrollAndZoomIntoView(selectedFrames);
             let run = () => __awaiter(void 0, void 0, void 0, function* () {
