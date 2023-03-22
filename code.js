@@ -286,33 +286,33 @@ else {
             let fillStyle = selectedFrame.fillStyleId;
             let strokeStyle;
             let currentTheme = '';
-            // Check current theme and set currentTheme value
+            let newName;
+            let name = selectedFrame.name;
+            // Set currentTheme value
+            const setTheme = (theme, newTheme) => {
+                currentTheme = theme.toLowerCase();
+                if (name.match(/light/i)) {
+                    newName = name.replace(/light/gi, newTheme);
+                }
+                else if (name.match(/dark/i)) {
+                    newName = name.replace(/dark/gi, newTheme);
+                }
+                else {
+                    newName = name + ' / ' + newTheme;
+                }
+                selectedFrame.name = newName;
+            };
+            // Check current theme
             instances.every(instance => {
                 if (instance.type === 'INSTANCE') {
-                    let name = selectedFrame.name;
-                    let newName;
                     if ('Theme' in instance.componentProperties
                         && instance.componentProperties.Theme.value === 'Light') {
-                        currentTheme = 'light';
-                        if (name.match(/light/i)) {
-                            newName = name.replace(/light/gi, "Dark");
-                        }
-                        else {
-                            newName = name + ' / Dark';
-                        }
-                        selectedFrame.name = newName;
+                        setTheme('Light', 'Dark');
                         return false;
                     }
                     if ('Theme' in instance.componentProperties
                         && instance.componentProperties.Theme.value === 'Dark') {
-                        currentTheme = 'dark';
-                        if (name.match(/dark/i)) {
-                            newName = name.replace(/dark/gi, "Light");
-                        }
-                        else {
-                            newName = name + ' / Light';
-                        }
-                        selectedFrame.name = newName;
+                        setTheme('Dark', 'Light');
                         return false;
                     }
                     return true;
@@ -331,35 +331,23 @@ else {
                 if (e.type !== 'INSTANCE') {
                     fillStyle = e.fillStyleId;
                     strokeStyle = e.strokeStyleId;
-                    if (currentTheme === 'light' && fillStyle !== '') {
+                    if (currentTheme === 'light') {
                         for (const light in lightTokens) {
                             if (light === fillStyle) {
                                 e.fillStyleId = lightTokens[light].mapsTo;
-                                break;
                             }
-                        }
-                    }
-                    if (currentTheme === 'light' && strokeStyle !== '') {
-                        for (const light in lightTokens) {
                             if (light === strokeStyle) {
                                 e.strokeStyleId = lightTokens[light].mapsTo;
-                                break;
                             }
                         }
                     }
-                    if (currentTheme === 'dark' && fillStyle !== '') {
+                    if (currentTheme === 'dark') {
                         for (const dark in darkTokens) {
                             if (dark === fillStyle) {
                                 e.fillStyleId = darkTokens[dark].mapsTo;
-                                break;
                             }
-                        }
-                    }
-                    if (currentTheme === 'dark' && strokeStyle !== '') {
-                        for (const dark in darkTokens) {
                             if (dark === strokeStyle) {
                                 e.strokeStyleId = darkTokens[dark].mapsTo;
-                                break;
                             }
                         }
                     }
