@@ -4,9 +4,9 @@
     "description": "Got a light theme? Make it dark! Got a dark theme? Make it light... automagically! ✨",
     "main": "code.js",
     "scripts": {
-		"build": "./node_modules/.bin/webpack --mode=production",
-		"build:watch": "./node_modules/.bin/webpack --mode=development --watch"
-	},
+        "build": "./node_modules/.bin/webpack --mode=production",
+        "build:watch": "./node_modules/.bin/webpack --mode=development --watch"
+    },
     "author": "Scott Fowles",
     "license": "",
     "devDependencies": {
