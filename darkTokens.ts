@@ -121,4 +121,4 @@ const darkTokens:any = {
   }
 }
 
-export {darkTokens};
+export { darkTokens };
