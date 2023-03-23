@@ -1,10 +1,10 @@
 # Project Scaffold
-A simple Figma plugin that you can use to scaffold Sagent Figma files.
+A simple Figma plugin that you can use to automatically translate Sagent design compositions from light to dark more, and vice versa.
 
 ### Features
-* Auto generates a consistent project structure for your team, so your organization is consistent across teams
-* Creates a project overview page for your project
-* Creates a cover for your project
+* Auto generates a light mode composition from a dark mode composition
+* Auto generates a dark mode composition from a light mode composition
+* Automatically updates frame names to reflect the new color theme, while retaining existing formatting
 
 ### How to run in dev
 * Pull this repo
