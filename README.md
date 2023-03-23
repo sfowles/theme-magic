@@ -1,18 +1,14 @@
-# theme-magic
-A figma plugin for automagically theming Sagent compositions using the component library and design tokens.
+# Project Scaffold
+A simple Figma plugin that you can use to scaffold Sagent Figma files.
 
 ### Features
-* Auto generates a dark mode composition from any selected light mode composition, and vice versa
-* Automatically updates composition names to reflect the accurate theme
-
-### Usage
-* Select one or more page-level Frames within Figma, and run the plugin
-* Make sure to strictly adhere to semantic color design token best practices
-* Components without the "Theme" property are ignored
+* Auto generates a consistent project structure for your team, so your organization is consistent across teams
+* Creates a project overview page for your project
+* Creates a cover for your project
 
 ### How to run in dev
 * Pull this repo
-* Run `npm i` and `npm watch`
+* Run `npm i` and `npm run build:watch`
 * Open Figma, and select Plugins > Development > Import plugin from manifest...
 * Navigate to the repo folder and select `manifest.json`
 * Success!
