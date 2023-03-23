@@ -91,20 +91,20 @@ if (!selectedFrames[0]) {
           strokeStyle = e.strokeStyleId;
           if (currentTheme === 'light') {
             for (const light in lightTokens) {
-              if (light === fillStyle) {
+              if (fillStyle !== '' && light === fillStyle) {
                 e.fillStyleId = lightTokens[light].mapsTo;
               }
-              if (light === strokeStyle) {
+              if (strokeStyle !== '' && light === strokeStyle) {
                 e.strokeStyleId = lightTokens[light].mapsTo;
               }
             }
           }
           if (currentTheme === 'dark') {
             for (const dark in darkTokens) {
-              if (dark === fillStyle) {
+              if (fillStyle !== '' && dark === fillStyle) {
                 e.fillStyleId = darkTokens[dark].mapsTo;
               }
-              if (dark === strokeStyle) {
+              if (strokeStyle !== '' && dark === strokeStyle) {
                 e.strokeStyleId = darkTokens[dark].mapsTo;
               }
             }

@@ -19,15 +19,11 @@ const darkTokens:any = {
   "S:5628f22fd895eb6289b5e4fd5e2056348f6eefee,500:1": {
     mapsTo: "S:034934443ff4577d9a66dcdc50579ad1fde8e4f4,500:0"
   },
-  // semantic/dark/container
-  "S:ab32036af359f8b8ed8fea35ad875f9e25771c97,182:21": {
-    mapsTo: "S:e788850555bd2a31c32990473519d9e20398d75c,182:20"
-  },
   // semantic/dark/background
   "S:10e3da407a9bfe44d4ab45d7c64f3b1916d05611,112:175": {
     mapsTo: "S:d4caeb649b37339a8fefe235a401e2eac93a5418,167:103"
   },
-  // semantic/dark/disabled input background
+  // semantic/dark/input background disabled
   "S:aa66bcd2637da20b09011b322b9427f0e906744d,369:18": {
     mapsTo: "S:d1993e63e0b362adcddc07947d26a590e0e002d9,368:15"
   },
@@ -35,25 +31,33 @@ const darkTokens:any = {
   "S:c91db3a7bd1072c42983d379d7472162acf6fbad,182:23": {
     mapsTo: "S:c91db3a7bd1072c42983d379d7472162acf6fbad,182:23"
   },
-  // semantic/dark/navigation background
-  "S:83735442c8bef259bc9753378bb0e2d6d6a772f3,367:9": {
-    mapsTo: "S:e54cd10b9a272aa703c188861da21fb250881785,367:6"
+  // semantic/dark/container
+  "S:ab32036af359f8b8ed8fea35ad875f9e25771c97,182:21": {
+    mapsTo: "S:e788850555bd2a31c32990473519d9e20398d75c,182:20"
   },
   // semantic/dark/surface
   "S:bdea11d3867117a7dbddf07b79049cde84d3d486,114:369": {
     mapsTo: "S:a2230c3e8605f8253eb05339e3df58aa32c90cde,167:102"
   },
+  // semantic/dark/navigation background
+  "S:83735442c8bef259bc9753378bb0e2d6d6a772f3,367:9": {
+    mapsTo: "S:e54cd10b9a272aa703c188861da21fb250881785,367:6"
+  },
   // semantic/dark/divider
   "S:c575457f7eb850951675d2186c5c828219eff260,369:24": {
     mapsTo: "S:af7285aadc249144801ff30ac1881c4fdd36e78e,369:27"
   },
-  // semantic/dark/disabled background
+  // semantic/dark/background disabled
   "S:df3bca4987fadca9198208807dcd0f7a1e057459,182:29": {
     mapsTo: "S:51e7a9ca736db46aec25ec2f2ea593bb968c3e89,182:28"
   },
   // semantic/dark/icon
   "S:c64abe6fd217f1640bcef298dfcd862b28968502,161:21": {
     mapsTo: "S:fe9a904fafb5dcb1e161d4b3a7eb0f8e7f21d3ce,161:18"
+  },
+  // semantic/dark/item background hover
+  "S:aa34603aa3e47ca77c62cdb8686e8933cb1ee36c,611:2": {
+    mapsTo: "S:8ab85cb1d28951afc41ef5c2325debe29543b26b,611:5"
   },
   // semantic/dark/success background
   "S:0503911db4b713d5e777c61b46dad91a4b6bdf29,381:36": {

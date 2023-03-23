@@ -19,15 +19,11 @@ const lightTokens:any = {
   "S:034934443ff4577d9a66dcdc50579ad1fde8e4f4,500:0": {
     mapsTo: "S:5628f22fd895eb6289b5e4fd5e2056348f6eefee,500:1"
   },
-  // semantic/light/container
-  "S:e788850555bd2a31c32990473519d9e20398d75c,182:20": {
-    mapsTo: "S:ab32036af359f8b8ed8fea35ad875f9e25771c97,182:21"
-  },
   // semantic/light/background
   "S:d4caeb649b37339a8fefe235a401e2eac93a5418,167:103": {
     mapsTo: "S:10e3da407a9bfe44d4ab45d7c64f3b1916d05611,112:175"
   },
-  // semantic/light/disabled input background
+  // semantic/light/input background disabled
   "S:d1993e63e0b362adcddc07947d26a590e0e002d9,368:15": {
     mapsTo: "S:aa66bcd2637da20b09011b322b9427f0e906744d,369:18"
   },
@@ -35,25 +31,33 @@ const lightTokens:any = {
   "S:c91db3a7bd1072c42983d379d7472162acf6fbad,182:23": {
     mapsTo: "S:c91db3a7bd1072c42983d379d7472162acf6fbad,182:23"
   },
-  // semantic/light/navigation background
-  "S:e54cd10b9a272aa703c188861da21fb250881785,367:6": {
-    mapsTo: "S:83735442c8bef259bc9753378bb0e2d6d6a772f3,367:9"
+  // semantic/light/container
+  "S:e788850555bd2a31c32990473519d9e20398d75c,182:20": {
+    mapsTo: "S:ab32036af359f8b8ed8fea35ad875f9e25771c97,182:21"
   },
   // semantic/light/surface
   "S:a2230c3e8605f8253eb05339e3df58aa32c90cde,167:102": {
     mapsTo: "S:bdea11d3867117a7dbddf07b79049cde84d3d486,114:369"
   },
+  // semantic/light/navigation background
+  "S:e54cd10b9a272aa703c188861da21fb250881785,367:6": {
+    mapsTo: "S:83735442c8bef259bc9753378bb0e2d6d6a772f3,367:9"
+  },
   // semantic/light/divider
   "S:af7285aadc249144801ff30ac1881c4fdd36e78e,369:27": {
     mapsTo: "S:c575457f7eb850951675d2186c5c828219eff260,369:24"
   },
-  // semantic/light/disabled background
+  // semantic/light/background disabled
   "S:51e7a9ca736db46aec25ec2f2ea593bb968c3e89,182:28": {
     mapsTo: "S:df3bca4987fadca9198208807dcd0f7a1e057459,182:29"
   },
   // semantic/light/icon
   "S:fe9a904fafb5dcb1e161d4b3a7eb0f8e7f21d3ce,161:18": {
     mapsTo: "S:c64abe6fd217f1640bcef298dfcd862b28968502,161:21"
+  },
+  // semantic/light/item background hover
+  "S:8ab85cb1d28951afc41ef5c2325debe29543b26b,611:5": {
+    mapsTo: "S:aa34603aa3e47ca77c62cdb8686e8933cb1ee36c,611:2"
   },
   // semantic/light/success background
   "S:f2cb35bab91f16e912f17ce08bbc21ff95387a4a,381:30": {
