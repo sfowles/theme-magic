@@ -7,6 +7,11 @@ A simple Figma plugin that you can use to automatically translate Sagent design 
 * Able to re-theme multiple compositions and multiple different themes simultaneously
 * Automatically updates frame names to reflect the new color theme, while retaining existing formatting
 
+### Usage
+* Open a Figma file
+* Select one or more mockup frames
+* Run the plugin and watch the magic happen
+
 ### How to run in dev
 * Pull this repo
 * Run `npm i` and `npm run build:watch`
