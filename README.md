@@ -4,6 +4,7 @@ A simple Figma plugin that you can use to automatically translate Sagent design 
 ### Features
 * Auto generates a light mode composition from a dark mode composition
 * Auto generates a dark mode composition from a light mode composition
+* Able to re-theme multiple compositions and multiple different themes simultaneously
 * Automatically updates frame names to reflect the new color theme, while retaining existing formatting
 
 ### How to run in dev
