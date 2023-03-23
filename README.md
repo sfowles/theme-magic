@@ -1,5 +1,5 @@
 # Theme Magic!
-A simple Figma plugin that you can use to automatically translate Sagent design compositions from light to dark more, and vice versa.
+A simple Figma plugin that you can use to automatically translate Sagent design compositions from light to dark mode, and vice versa.
 
 ### Features
 * Auto generates a light mode composition from a dark mode composition
