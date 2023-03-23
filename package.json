@@ -4,13 +4,24 @@
     "description": "Got a light theme? Make it dark! Got a dark theme? Make it light... automagically! ✨",
     "main": "code.js",
     "scripts": {
-        "build": "tsc -p tsconfig.json",
-        "watch": "npm run build -- --watch"
-    },
+		"build": "./node_modules/.bin/webpack --mode=production",
+		"build:watch": "./node_modules/.bin/webpack --mode=development --watch",
+		"prettier:format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,json}' "
+	},
     "author": "Scott Fowles",
     "license": "",
     "devDependencies": {
         "@figma/plugin-typings": "^1.50.0",
         "typescript": "*"
+    },
+    "dependencies": {
+        "css-loader": "^6.7.3",
+        "html-webpack-inline-source-plugin": "^0.0.10",
+        "html-webpack-plugin": "^5.5.0",
+        "style-loader": "^3.3.2",
+        "ts-loader": "^9.4.2",
+        "url-loader": "^4.1.1",
+        "webpack": "^5.76.3",
+        "webpack-cli": "^5.0.1"
     }
 }
