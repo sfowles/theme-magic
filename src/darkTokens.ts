@@ -28,8 +28,12 @@ const darkTokens:any = {
     mapsTo: "S:d1993e63e0b362adcddc07947d26a590e0e002d9,368:15"
   },
   // semantic/dark/input background
-  "S:c91db3a7bd1072c42983d379d7472162acf6fbad,182:23": {
+  "S:f376f092c0fb0e67b16ab30d909294e88f9c7866,182:22": {
     mapsTo: "S:c91db3a7bd1072c42983d379d7472162acf6fbad,182:23"
+  },
+  // semantic/dark/tile
+  "S:f393f798fb8315cfd534e3e61ce0e8e57451357b,993:2": {
+    mapsTo: "S:9436216e10026465e8c096150be09b1a43d47190,993:5"
   },
   // semantic/dark/container
   "S:ab32036af359f8b8ed8fea35ad875f9e25771c97,182:21": {
@@ -38,6 +42,10 @@ const darkTokens:any = {
   // semantic/dark/surface
   "S:bdea11d3867117a7dbddf07b79049cde84d3d486,114:369": {
     mapsTo: "S:a2230c3e8605f8253eb05339e3df58aa32c90cde,167:102"
+  },
+  // semantic/dark/tag background
+  "S:9cff866638a3c9f7dd8c416a5cfc7bc6a6cb34f0,939:5": {
+    mapsTo: "S:aa4756b7c26d1bc5adb1d5d986fd7e1a48c72aac,112:227"
   },
   // semantic/dark/navigation background
   "S:83735442c8bef259bc9753378bb0e2d6d6a772f3,367:9": {
@@ -48,8 +56,8 @@ const darkTokens:any = {
     mapsTo: "S:af7285aadc249144801ff30ac1881c4fdd36e78e,369:27"
   },
   // semantic/dark/background disabled
-  "S:df3bca4987fadca9198208807dcd0f7a1e057459,182:29": {
-    mapsTo: "S:51e7a9ca736db46aec25ec2f2ea593bb968c3e89,182:28"
+  "S:df3bca4987fadca9198208807dcd0f7a1e057459,611:8": {
+    mapsTo: "S:51e7a9ca736db46aec25ec2f2ea593bb968c3e89,611:9"
   },
   // semantic/dark/icon
   "S:c64abe6fd217f1640bcef298dfcd862b28968502,161:21": {

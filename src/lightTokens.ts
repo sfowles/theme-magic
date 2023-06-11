@@ -29,7 +29,11 @@ const lightTokens:any = {
   },
   // semantic/light/input background
   "S:c91db3a7bd1072c42983d379d7472162acf6fbad,182:23": {
-    mapsTo: "S:c91db3a7bd1072c42983d379d7472162acf6fbad,182:23"
+    mapsTo: "S:f376f092c0fb0e67b16ab30d909294e88f9c7866,182:22"
+  },
+  // semantic/dark/tile
+  "S:9436216e10026465e8c096150be09b1a43d47190,993:5": {
+    mapsTo: "S:f393f798fb8315cfd534e3e61ce0e8e57451357b,993:2"
   },
   // semantic/light/container
   "S:e788850555bd2a31c32990473519d9e20398d75c,182:20": {
@@ -38,6 +42,10 @@ const lightTokens:any = {
   // semantic/light/surface
   "S:a2230c3e8605f8253eb05339e3df58aa32c90cde,167:102": {
     mapsTo: "S:bdea11d3867117a7dbddf07b79049cde84d3d486,114:369"
+  },
+  // semantic/light/tag background
+  "S:aa4756b7c26d1bc5adb1d5d986fd7e1a48c72aac,112:227": {
+    mapsTo: "S:9cff866638a3c9f7dd8c416a5cfc7bc6a6cb34f0,939:5"
   },
   // semantic/light/navigation background
   "S:e54cd10b9a272aa703c188861da21fb250881785,367:6": {
@@ -48,8 +56,8 @@ const lightTokens:any = {
     mapsTo: "S:c575457f7eb850951675d2186c5c828219eff260,369:24"
   },
   // semantic/light/background disabled
-  "S:51e7a9ca736db46aec25ec2f2ea593bb968c3e89,182:28": {
-    mapsTo: "S:df3bca4987fadca9198208807dcd0f7a1e057459,182:29"
+  "S:51e7a9ca736db46aec25ec2f2ea593bb968c3e89,611:9": {
+    mapsTo: "S:df3bca4987fadca9198208807dcd0f7a1e057459,611:8"
   },
   // semantic/light/icon
   "S:fe9a904fafb5dcb1e161d4b3a7eb0f8e7f21d3ce,161:18": {
