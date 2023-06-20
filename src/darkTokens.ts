@@ -67,6 +67,18 @@ const darkTokens:any = {
   "S:aa34603aa3e47ca77c62cdb8686e8933cb1ee36c,611:2": {
     mapsTo: "S:8ab85cb1d28951afc41ef5c2325debe29543b26b,611:5"
   },
+  // semantic/light/neutral background
+  "S:7d67aee7be001a5fe0075cc5d08c6822d8247716,1170:20": {
+    mapsTo: "S:22041148940b0e105d4c4c8cfc5c432006210f04,1170:11"
+  },
+  // semantic/light/neutral
+  "S:1f8dba801cafc818abb51c4b8c06c28448454e79,1170:23": {
+    mapsTo: "S:c9066ddda3d4ef7c2f7b946274f447bf0e2ddde4,1170:14"
+  },
+  // semantic/light/neutral hover
+  "S:4ec703546ccbf13da720389de6bcad8b02902c6e,1170:26": {
+    mapsTo: "S:d069d733fef6339699cde0ad861f483b81982c3c,1170:17"
+  },
   // semantic/dark/success background
   "S:0503911db4b713d5e777c61b46dad91a4b6bdf29,381:36": {
     mapsTo: "S:f2cb35bab91f16e912f17ce08bbc21ff95387a4a,381:30"
@@ -78,6 +90,10 @@ const darkTokens:any = {
   // semantic/dark/success hover
   "S:2582839954f320ba75058bb442829c3190cba314,182:33": {
     mapsTo: "S:430aa24d74b232a4fb241a57da83b01ee4771a15,201:1"
+  },
+  // semantic/light/warning background
+  "S:7f952c5015eeeb61a2a5489e4cb056961eeda288,1170:7": {
+    mapsTo: "S:b2128863a92a9289b2ebf432ba0e0ead3900256b,1169:5"
   },
   // semantic/dark/warning
   "S:261e22c36f9fa4f506d3cc9ab04fdfc5c65437ec,112:193": {

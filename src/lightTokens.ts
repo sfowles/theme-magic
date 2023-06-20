@@ -67,6 +67,18 @@ const lightTokens:any = {
   "S:8ab85cb1d28951afc41ef5c2325debe29543b26b,611:5": {
     mapsTo: "S:aa34603aa3e47ca77c62cdb8686e8933cb1ee36c,611:2"
   },
+  // semantic/light/neutral background
+  "S:22041148940b0e105d4c4c8cfc5c432006210f04,1170:11": {
+    mapsTo: "S:7d67aee7be001a5fe0075cc5d08c6822d8247716,1170:20"
+  },
+  // semantic/light/neutral
+  "S:c9066ddda3d4ef7c2f7b946274f447bf0e2ddde4,1170:14": {
+    mapsTo: "S:1f8dba801cafc818abb51c4b8c06c28448454e79,1170:23"
+  },
+  // semantic/light/neutral hover
+  "S:d069d733fef6339699cde0ad861f483b81982c3c,1170:17": {
+    mapsTo: "S:4ec703546ccbf13da720389de6bcad8b02902c6e,1170:26"
+  },
   // semantic/light/success background
   "S:f2cb35bab91f16e912f17ce08bbc21ff95387a4a,381:30": {
     mapsTo: "S:0503911db4b713d5e777c61b46dad91a4b6bdf29,381:36"
@@ -78,6 +90,10 @@ const lightTokens:any = {
   // semantic/light/success hover
   "S:430aa24d74b232a4fb241a57da83b01ee4771a15,201:1": {
     mapsTo: "S:2582839954f320ba75058bb442829c3190cba314,182:33"
+  },
+  // semantic/light/warning background
+  "S:b2128863a92a9289b2ebf432ba0e0ead3900256b,1169:5": {
+    mapsTo: "S:7f952c5015eeeb61a2a5489e4cb056961eeda288,1170:7"
   },
   // semantic/light/warning
   "S:3fe847d123e7006d772b525416e5536f9f29d0b4,112:162": {
